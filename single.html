@@ -6,6 +6,41 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.7);
+          min-width: 160px;
+          z-index: 1;
+        }
+
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: #222;
+          padding: 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+          background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+    </style>
 </head>
 
 <body
@@ -23,12 +58,12 @@
         <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div class="flex h-12 justify-between">
                 <div class="flex px-2 lg:px-0 justify-between w-full">
-                    <a href="https://aiidee.com.tw" class="flex flex-shrink-0 items-center">
+                    <a href="./index.html" class="flex flex-shrink-0 items-center">
                         <img class="logo-white block w-24" src="./logo.png" alt="Company name">
                                             </a>
                     <div id="list" class=" hidden lg:ml-6 lg:flex lg:space-x-8">
                         <!-- Current: "border-indigo-500 ", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                        <a href="https://aiidee.com.tw"
+                        <a href="./index.html"
                             class="items-center0 border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300 hover:text-gray-70 border-slate-700 ">首頁</a>
 
                         <div class="dropdown">
@@ -38,11 +73,11 @@
                             <a href="./awards.html">獲獎紀錄</a>
                             </div>
                         </div>
-                        <a href="https://pse.is/adwebQAup"
+                        <a href="#"
                             class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">關於/證照</a>
-                        <a href="https://aiidee.com.tw/projects"
+                        <a href="#"
                             class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">作品總覽</a>
-                        <a href="https://aiidee.com.tw/contact"
+                        <a href="#"
                             class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">聯絡我們</a>
                     </div>
                 </div>
@@ -85,41 +120,38 @@
         <div class="hidden lg:hidden border-b border-gray-200 bg-white text-gray-600" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-3">
                 <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" -->
-                <a href="https://aiidee.com.tw"
+                <a href="#"
                     class="block border-l-4 border-slate-700 bg-slate-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">首頁</a>
-                <a href="https://aiidee.com.tw/about"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">關於</a>
-                <a href="https://aiidee.com.tw/team"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">團隊介紹</a>
-                <a href="https://aiidee.com.tw/services"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">服務流程</a>
-                <a href="https://pse.is/adwebQAup"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">預約諮詢</a>
-                <a href="https://aiidee.com.tw/projects"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">作品總覽</a>
-                <a href="https://aiidee.com.tw/contact"
+                <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">聯絡我們</a>
             </div>
         </div>
     </nav>
 
     <header>
-        <img src="https://aiidee.com.tw/wp-content/themes/aiidee/img/banner-about.jpg"
-            alt=""
-            class="w-full h-96 object-cover" />
+        <img src="./projects/1-微空然居/2.jpg" alt="" class="w-full h-96 object-cover">
     </header>
 
     <section class="container mx-auto max-w-5xl mt-8 py-8">
 
         <div class="flex flex-wrap mt-4">
             <div class="w-full sm:w-3/12 px-8 mt-8">
-                <h3 class="text-3xl text-slate-700 mb-2">高雄室內設計 小港安美街</h3>
+                <h3 class="text-3xl text-slate-700 mb-2">屏東恆春 </h3>
                 <ul class="text-sm text-gray-600">
-                    <li class="mb-1">設計師: Chris Sung</li>
-                    <li class="mb-1">設計風格: 現代風</li>
-                    <li class="mb-1">空間坪數: 20坪/層</li>
-                    <li class="mb-1">空間格局: 5層樓電梯透天</li>
-                    <li>主要建材: 石材薄板/QS LVT豪華地板/QS超耐磨地板/天然木皮</li>
+                    <li class="mb-1">設計師: XXXX</li>
+                    <li class="mb-1">設計風格: XXX</li>
+                    <li class="mb-1">空間坪數: XXX/層</li>
+                    <li class="mb-1">空間格局: XXXX</li>
                 </ul>
             </div>
 
@@ -128,469 +160,87 @@
                 <p>【沈穩大器
                     內斂非凡宅邸】<br>石材薄板與木紋異質組合，擺脫深色系沈重感。<br>玻璃展示與打亮效果，將屋主的收藏完美呈現。<br>配合身高的訂製廚房，是與美感共存的實用性。<br>石與木共舞在黑灰色主臥室，增添空間的紋理。<br>孝親房簡約北歐風佐日式氣息，跳脫生活空間。
                 </p>
-
-
-
-                <p></p>
-
-
-
-                <p class="text-sm text-gray-400 mt-8"><a
-                        href="https://www.facebook.com/hashtag/aiidee%E8%89%BE%E8%BF%AA%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#Aiidee艾迪室內設計</a> <a
-                        href="https://www.facebook.com/hashtag/aiideedesign?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#aiideedesign</a> <a
-                        href="https://www.facebook.com/hashtag/aiideeinterior?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#aiideeinterior</a> <a
-                        href="https://www.facebook.com/hashtag/aiidee?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#aiidee</a> <a
-                        href="https://www.facebook.com/hashtag/%E9%AB%98%E9%9B%84%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#高雄室內設計</a> <a
-                        href="https://www.facebook.com/hashtag/%E9%AB%98%E9%9B%84%E8%A8%AD%E8%A8%88%E5%B8%AB?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#高雄設計師</a> <a
-                        href="https://www.facebook.com/hashtag/%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#新加坡室內設計</a> <a
-                        href="https://www.facebook.com/hashtag/%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#室內設計</a> <a
-                        href="https://www.facebook.com/hashtag/%E5%AE%A4%E5%85%A7%E8%A3%9D%E4%BF%AE?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#室內裝修</a> <a
-                        href="https://www.facebook.com/hashtag/%E7%BE%8E%E5%BC%8F%E8%BC%95%E5%A5%A2%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#美式輕奢風</a> <a
-                        href="https://www.facebook.com/hashtag/%E8%80%81%E5%B1%8B%E7%BF%BB%E6%96%B0?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#老屋翻新</a> <a
-                        href="https://www.facebook.com/hashtag/%E6%99%82%E5%B0%9A%E5%B7%A5%E6%A5%AD%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#時尚工業風</a> <a
-                        href="https://www.facebook.com/hashtag/%E7%8F%BE%E4%BB%A3%E7%B0%A1%E7%B4%84%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#現代簡約風</a> <a
-                        href="https://www.facebook.com/hashtag/%E6%97%A5%E5%BC%8F%E7%B0%A1%E7%B4%84?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#日式簡約</a> <a
-                        href="https://www.facebook.com/hashtag/%E5%8C%97%E6%AD%90%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#北歐風</a> <a
-                        href="https://www.facebook.com/hashtag/%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88%E8%A3%9D%E6%BD%A2?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#室內設計裝潢</a> <a
-                        href="https://www.facebook.com/hashtag/%E7%84%A1%E5%8D%B0%E9%A2%A8%E8%A8%AD%E8%A8%88?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#無印風設計</a> <a
-                        href="https://www.facebook.com/hashtag/%E7%BE%8E%E5%BC%8F%E7%8F%BE%E4%BB%A3%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#美式現代風</a> <a
-                        href="https://www.facebook.com/hashtag/%E6%96%B0%E5%B1%8B%E8%A3%9D%E6%BD%A2?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#新屋裝潢</a> <a
-                        href="https://www.facebook.com/hashtag/%E7%8F%BE%E4%BB%A3%E7%BE%8E%E5%BC%8F%E9%A2%A8?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#現代美式風</a> <a
-                        href="https://www.facebook.com/hashtag/aiideechris?__eep__=6&amp;__cft__[0]=AZVIF4nN5jM4xPI9KYY49_NxuYj0Pwu_N0Ytgd1ZltZgqVXF5MWVu-w0QoWDqq_QtGiNnCiCp5eMIULeEBJxHtIVF7oAccLeKqmzMBdLRT97ki67AdEB8XffkOt5vzFKma8iIids9J5iMUhnj_uAh_7coXHz1qEI4YK6t5U887q9k8kOUgKh-oIUw37a8AOxEUc&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noreferrer noopener">#AiideeChris</a> <a
-                        href="https://www.facebook.com/hashtag/aiideejamie?__eep__=6&amp;__cft__[0]=AZXOSl-7vaDKUIoNNGQnhUAMPsp5HZAV2lsaUdJ4Z4yBDawAn_UXVAfap5eb34OfeghI2oXepX9TcY0Rx693-oIT5DRNzJCMKRp_EQz9sCZT0YPdUA771t7L6W4i0yHp3CI&amp;__tn__=*NK-R"
-                        target="_blank"
-                        rel="noopener">#AiideeJamie</a></p>
-
-
-                <div style="font-size:10px"
-                    class="taxonomy-post_tag wp-block-post-terms"><a
-                        href="https://aiidee.com.tw/tag/20%e5%9d%aa/"
-                        rel="tag">20坪</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/5%e5%b1%a4%e6%a8%93%e9%9b%bb%e6%a2%af%e9%80%8f%e5%a4%a9/"
-                        rel="tag">5層樓電梯透天</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/chris-sung/"
-                        rel="tag">Chris Sung</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/%e5%ae%a4%e5%85%a7-%e8%a3%9d%e4%bf%ae/"
-                        rel="tag">室內 裝修</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/%e5%b0%8f%e6%b8%af%e5%ae%89%e7%be%8e%e8%a1%97/"
-                        rel="tag">小港安美街</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/%e7%8f%be%e4%bb%a3%e9%a2%a8/"
-                        rel="tag">現代風</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88/"
-                        rel="tag">高雄室內設計</a><span
-                        class="wp-block-post-terms__separator">, </span><a
-                        href="https://aiidee.com.tw/tag/%e9%ab%98%e9%9b%84%e5%b0%8f%e6%b8%af/"
-                        rel="tag">高雄小港</a></div>
-
-                <div
-                    class="post-navigation-link-previous has-text-color has-white-color has-background has-cyan-bluish-gray-background-color wp-block-post-navigation-link has-small-font-size">
-                    <span
-                        class="wp-block-post-navigation-link__arrow-previous is-arrow-chevron"
-                        aria-hidden="true">«</span><a
-                        href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e9%b3%b3%e5%b1%b1%e4%b8%ad%e5%b1%b1%e6%a5%b5%e4%b8%8a-%e7%8f%be%e4%bb%a3%e7%be%8e%e5%bc%8f%e9%a2%a8-aiidee-design-%e8%89%be%e8%bf%aa%e5%ae%a4/"
-                        rel="prev"><span
-                            class="post-navigation-link__label">上一篇:</span>
-                        <span class="post-navigation-link__title">高雄室內設計
-                            中山極上</span></a></div>
-
-                <div
-                    class="post-navigation-link-next has-text-align-right wp-block-post-navigation-link has-small-font-size">
-                </div>
             </div>
         </div>
     </section>
 
-    <section class="container mx-auto max-w-5xl mt-24 single-header-img">
-        <p><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-276 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1.jpg"
-                alt="小港logo 1"
-                width="1920"
-                height="1200"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-300x188.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-1024x640.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-768x480.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-1536x960.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-277 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2.jpg"
-                alt="小港logo 2"
-                width="1920"
-                height="1279"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2-768x512.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-2-1536x1023.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-278 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3.jpg"
-                alt="小港logo 3"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-3-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-326 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4.jpg"
-                alt="小港logo 4"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-4-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-327 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5.jpg"
-                alt="小港logo 5"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-5-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p><a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%b0%8f%e6%b8%af%e5%ae%89%e7%be%8e%e8%a1%97-%e7%8f%be%e4%bb%a3%e9%a2%a8-aiidee-design-%e8%89%be%e8%bf%aa%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88/%e5%b0%8f%e6%b8%aflogo-6/"
-                rel="attachment wp-att-279"><img loading="lazy"
-                    decoding="async"
-                    class="alignnone size-full wp-image-279"
-                    src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6.jpg"
-                    alt="小港logo 6"
-                    width="1920"
-                    height="1278"
-                    srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-6-1536x1022.jpg 1536w"
-                    sizes="(max-width: 1920px) 100vw, 1920px" /></a></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-280 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7.jpg"
-                alt="小港logo 7"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-7-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-320 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8.jpg"
-                alt="小港logo 8"
-                width="1920"
-                height="1277"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8-1024x681.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-8-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-281 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9.jpg"
-                alt="小港logo 9"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-9-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-321 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10.jpg"
-                alt="小港logo 10"
-                width="1920"
-                height="1277"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10-1024x681.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-10-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-322 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11.jpg"
-                alt="小港logo 11"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-11-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-274 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12.jpg"
-                alt="小港logo 12"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-12-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-323 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13.jpg"
-                alt="小港logo 13"
-                width="1920"
-                height="1277"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13-1024x681.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-13-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-324 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14.jpg"
-                alt="小港logo 14"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-14-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-325 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15.jpg"
-                alt="小港logo 15"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/02/小港logo-15-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
-        <p style="text-align: center;"><img loading="lazy"
-                decoding="async"
-                class="alignnone wp-image-275 size-full"
-                src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16.jpg"
-                alt="小港logo 16"
-                width="1920"
-                height="1278"
-                srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16-1024x682.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16-768x511.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-16-1536x1022.jpg 1536w"
-                sizes="(max-width: 1920px) 100vw, 1920px" /></p>
-        <p>&nbsp;</p>
+    <section class="container mx-auto max-w-5xl mt-12 single-header-img">
+        <img src="./projects/2-東風起/4.png" alt="" class="my-4">
+        <img src="./projects/2-東風起/5.png" alt="" class="my-4">
+        <img src="./projects/2-東風起/6.png" alt="" class="my-4">
+        <img src="./projects/2-東風起/7.png" alt="" class="my-4">
+
     </section>
 
-    <!-- Footer -->
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <footer class="bg-slate-700 text-white"
-        aria-labelledby="footer-heading">
-        <h2 id="footer-heading"
-            class="sr-only">Footer</h2>
-        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <div class="space-y-8 xl:col-span-1">
-                    <img class="h-10"
-                        src="https://aiidee.com.tw/wp-content/themes/aiidee/img/AIIDEE_WHITE.png"
-                        alt="Company name" />
-                    <p class="text-base text-white">
-                        AIIDEE
-                        艾迪室內設計傾聽您的要求並根據您的需求進行設計，立即與我們聯繫並建構出專屬於您的空間。
-                    </p>
-                    <div class="flex space-x-4">
-                        <a href="https://pse.is/FBaiideedown"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            class="text-white hover:text-slate-100">
-                            <span class="sr-only">Facebook</span>
-                            <svg class="h-6 w-6"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-
-                        <a href="https://pse.is/IGaiideedown"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            class="text-white hover:text-slate-100">
-                            <span class="sr-only">Instagram</span>
-                            <svg class="h-6 w-6"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <a href="https://lihi3.cc/MN1In"
-                            class="text-white hover:text-slate-100">
-                            <span class="sr-only">Line</span>
-                            <svg class="svg-icon h-6 w-6 fill-current text-gray-300"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xml:space="preserve"
-                                style="
-                    fill-rule: evenodd;
-                    clip-rule: evenodd;
-                    stroke-linejoin: round;
-                    stroke-miterlimit: 2;
-                  "
-                                viewBox="0 0 320 320">
-                                <path
-                                    d="M0 320h-175.719c-39.843 0-72.14-32.299-72.14-72.141V72.141c0-39.842 32.297-72.141 72.14-72.141H0c39.843 0 72.141 32.299 72.141 72.141v175.718C72.141 287.701 39.843 320 0 320"
-                                    transform="translate(247.862)" />
-                                <path
-                                    d="M0-33.428c0-47.74-47.859-86.58-106.688-86.58-58.825 0-106.689 38.84-106.689 86.58 0 42.798 37.955 78.642 89.226 85.417 3.473.751 8.203 2.292 9.398 5.262 1.076 2.696.704 6.922.346 9.646 0 0-1.252 7.529-1.524 9.134-.465 2.695-2.144 10.549 9.243 5.752 11.386-4.799 61.44-36.18 83.824-61.941h-.005C-7.408 2.885 0-14.323 0-33.428"
-                                    style="fill: #fff; fill-rule: nonzero"
-                                    transform="translate(266.652 178.353)" />
-                                <path
-                                    d="M0 50.635h-29.974a2.036 2.036 0 0 1-2.037-2.037V2.037c0-1.125.912-2.037 2.037-2.037H0c1.12 0 2.037.916 2.037 2.037v7.566A2.037 2.037 0 0 1 0 11.64h-20.37v7.857H0c1.12 0 2.037.917 2.037 2.037v7.567A2.037 2.037 0 0 1 0 31.138h-20.37v7.857H0c1.12 0 2.037.916 2.037 2.036v7.567A2.036 2.036 0 0 1 0 50.635"
-                                    transform="translate(231.162 121.855)" />
-                                <path
-                                    d="M0 50.635a2.036 2.036 0 0 0 2.037-2.037v-7.567c0-1.12-.917-2.036-2.037-2.036h-20.371V2.037A2.042 2.042 0 0 0-22.407 0h-7.567a2.037 2.037 0 0 0-2.037 2.037v46.561c0 1.126.912 2.037 2.037 2.037H0Z"
-                                    transform="translate(120.292 121.855)" />
-                                <path
-                                    d="M0-50.636h-7.565a2.038 2.038 0 0 0-2.038 2.037v46.562C-9.603-.912-8.69 0-7.565 0H0a2.036 2.036 0 0 0 2.037-2.037v-46.562A2.037 2.037 0 0 0 0-50.636"
-                                    transform="translate(138.332 172.49)" />
-                                <path
-                                    d="M0-50.636h-7.566a2.038 2.038 0 0 0-2.037 2.037v27.655l-21.303-28.769a2.11 2.11 0 0 0-.164-.21l-.013-.015a1.843 1.843 0 0 0-.123-.127l-.038-.035a3.389 3.389 0 0 0-.11-.094l-.056-.041a2.527 2.527 0 0 0-.17-.111 1.758 1.758 0 0 0-.112-.062l-.065-.032a2.503 2.503 0 0 0-.119-.051l-.066-.024a1.79 1.79 0 0 0-.197-.059l-.121-.026-.086-.014c-.037-.004-.073-.009-.11-.012-.036-.004-.072-.005-.108-.006-.024-.001-.047-.004-.071-.004h-7.524a2.038 2.038 0 0 0-2.037 2.037v46.562c0 1.125.912 2.037 2.037 2.037h7.566a2.037 2.037 0 0 0 2.037-2.037v-27.646L-9.226-.878c.147.208.327.378.526.513l.023.016c.041.028.085.054.128.078.02.011.039.023.06.032a.888.888 0 0 0 .098.048 1.434 1.434 0 0 0 .164.067A2.107 2.107 0 0 0-7.524 0H0a2.037 2.037 0 0 0 2.037-2.037v-46.562A2.038 2.038 0 0 0 0-50.636"
-                                    transform="translate(189.842 172.49)" />
-                            </svg>
-                        </a>
-
-                        <a href="https://pse.is/YTaiideedown"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            class="text-white hover:text-slate-100">
-                            <span class="sr-only">Youtube</span>
-                            <svg class="h-6 w-6"
-                                fill="currentColor"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 30 30">
-                                <path
-                                    d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z" />
-                            </svg>
-                        </a>
-                        <a href="https://lihi2.cc/tnMQg"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            class="text-white hover:text-slate-100">
-                            <span class="sr-only">GMAP</span>
-                            <svg class="h-6 w-6"
-                                fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M22.5 1a6.497 6.497 0 0 0-5.469 3H6a2 2 0 0 0-2 2v18c0 .178.031.347.074.512l12.987-12.987c.307.634.65 1.236 1.003 1.825L16.414 15l9.512 9.512c.043-.165.074-.334.074-.512v-9.07c.15-.253.303-.507.457-.76C27.649 12.215 29 10 29 7.5 29 3.916 26.084 1 22.5 1zm0 2A4.5 4.5 0 0 1 27 7.5c0 1.265-.504 2.51-1.15 3.723-.273.512-.563 1.02-.866 1.52l-.068.114-.064.108c-.261.428-.517.851-.758 1.267a17.48 17.48 0 0 0-.604 1.112c-.116.239-.218.475-.308.709-.024.061-.043.122-.065.183a5.6 5.6 0 0 0-.209.756 3.695 3.695 0 0 0-.078.697c0 .17-.162.295-.33.295a.317.317 0 0 1-.307-.316c0-.206-.024-.417-.062-.629-.013-.07-.034-.143-.05-.215a5.073 5.073 0 0 0-.21-.693 7.738 7.738 0 0 0-.15-.371c-.043-.098-.084-.197-.131-.295-.036-.076-.077-.152-.115-.229a16.775 16.775 0 0 0-.428-.785c-.154-.27-.311-.543-.479-.818-.273-.45-.549-.91-.826-1.373-.439-.736-.856-1.482-1.172-2.244l-.004-.01a9.396 9.396 0 0 1-.228-.613v-.004a7.396 7.396 0 0 1-.174-.596c-.02-.083-.032-.165-.049-.248-.026-.13-.053-.26-.07-.39A5.17 5.17 0 0 1 18 7.5c0-.278.034-.548.082-.813.01-.049.017-.1.027-.148a4.458 4.458 0 0 1 .85-1.785c.035-.045.071-.088.107-.131.187-.22.393-.424.618-.605.006-.006.012-.013.02-.018.77-.616 1.733-1 2.796-1zM10.082 6a4.07 4.07 0 0 1 2.748 1.064l-1.148 1.149a2.46 2.46 0 0 0-4.06 1.867c0 1.36 1.1 2.463 2.46 2.463 1.141 0 1.933-.676 2.223-1.621h-2.223v-1.56l3.848.005c.334 1.591-.424 4.793-3.848 4.793a4.08 4.08 0 1 1 0-8.16zM22.5 6A1.5 1.5 0 0 0 21 7.5 1.5 1.5 0 0 0 22.5 9 1.5 1.5 0 0 0 24 7.5 1.5 1.5 0 0 0 22.5 6zM15 16.414l-9.512 9.512c.165.043.334.074.512.074h18c.178 0 .347-.031.512-.074L15 16.414z" />
-                            </svg>
-                        </a>
+     <!-- Footer -->
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <footer class="bg-slate-700 text-white" aria-labelledby="footer-heading">
+            <h2 id="footer-heading" class="sr-only">Footer</h2>
+            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+                <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+                    <div class="space-y-8 xl:col-span-1">
+                        <img class="h-10" src="./logo.png" alt="Company name">
+                        <p class="text-base text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, voluptatibus.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://lihi3.cc/MN1In" class="text-white hover:text-slate-100">
+                                <span class="sr-only">Line</span>
+    <svg class="svg-icon h-6 w-6 fill-current text-gray-300" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 320 320"><path d="M0 320h-175.719c-39.843 0-72.14-32.299-72.14-72.141V72.141c0-39.842 32.297-72.141 72.14-72.141H0c39.843 0 72.141 32.299 72.141 72.141v175.718C72.141 287.701 39.843 320 0 320"  transform="translate(247.862)"/><path d="M0-33.428c0-47.74-47.859-86.58-106.688-86.58-58.825 0-106.689 38.84-106.689 86.58 0 42.798 37.955 78.642 89.226 85.417 3.473.751 8.203 2.292 9.398 5.262 1.076 2.696.704 6.922.346 9.646 0 0-1.252 7.529-1.524 9.134-.465 2.695-2.144 10.549 9.243 5.752 11.386-4.799 61.44-36.18 83.824-61.941h-.005C-7.408 2.885 0-14.323 0-33.428" style="fill:#fff;fill-rule:nonzero" transform="translate(266.652 178.353)"/><path d="M0 50.635h-29.974a2.036 2.036 0 0 1-2.037-2.037V2.037c0-1.125.912-2.037 2.037-2.037H0c1.12 0 2.037.916 2.037 2.037v7.566A2.037 2.037 0 0 1 0 11.64h-20.37v7.857H0c1.12 0 2.037.917 2.037 2.037v7.567A2.037 2.037 0 0 1 0 31.138h-20.37v7.857H0c1.12 0 2.037.916 2.037 2.036v7.567A2.036 2.036 0 0 1 0 50.635"  transform="translate(231.162 121.855)"/><path d="M0 50.635a2.036 2.036 0 0 0 2.037-2.037v-7.567c0-1.12-.917-2.036-2.037-2.036h-20.371V2.037A2.042 2.042 0 0 0-22.407 0h-7.567a2.037 2.037 0 0 0-2.037 2.037v46.561c0 1.126.912 2.037 2.037 2.037H0Z"  transform="translate(120.292 121.855)"/><path d="M0-50.636h-7.565a2.038 2.038 0 0 0-2.038 2.037v46.562C-9.603-.912-8.69 0-7.565 0H0a2.036 2.036 0 0 0 2.037-2.037v-46.562A2.037 2.037 0 0 0 0-50.636"  transform="translate(138.332 172.49)"/><path d="M0-50.636h-7.566a2.038 2.038 0 0 0-2.037 2.037v27.655l-21.303-28.769a2.11 2.11 0 0 0-.164-.21l-.013-.015a1.843 1.843 0 0 0-.123-.127l-.038-.035a3.389 3.389 0 0 0-.11-.094l-.056-.041a2.527 2.527 0 0 0-.17-.111 1.758 1.758 0 0 0-.112-.062l-.065-.032a2.503 2.503 0 0 0-.119-.051l-.066-.024a1.79 1.79 0 0 0-.197-.059l-.121-.026-.086-.014c-.037-.004-.073-.009-.11-.012-.036-.004-.072-.005-.108-.006-.024-.001-.047-.004-.071-.004h-7.524a2.038 2.038 0 0 0-2.037 2.037v46.562c0 1.125.912 2.037 2.037 2.037h7.566a2.037 2.037 0 0 0 2.037-2.037v-27.646L-9.226-.878c.147.208.327.378.526.513l.023.016c.041.028.085.054.128.078.02.011.039.023.06.032a.888.888 0 0 0 .098.048 1.434 1.434 0 0 0 .164.067A2.107 2.107 0 0 0-7.524 0H0a2.037 2.037 0 0 0 2.037-2.037v-46.562A2.038 2.038 0 0 0 0-50.636"  transform="translate(189.842 172.49)"/></svg>
+                            </a>
+                            <a href="https://lihi2.cc/tnMQg" target="_blank" rel="noreferrer noopener" class="text-white hover:text-slate-100">
+                                <span class="sr-only">GMAP</span>
+                                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 1a6.497 6.497 0 0 0-5.469 3H6a2 2 0 0 0-2 2v18c0 .178.031.347.074.512l12.987-12.987c.307.634.65 1.236 1.003 1.825L16.414 15l9.512 9.512c.043-.165.074-.334.074-.512v-9.07c.15-.253.303-.507.457-.76C27.649 12.215 29 10 29 7.5 29 3.916 26.084 1 22.5 1zm0 2A4.5 4.5 0 0 1 27 7.5c0 1.265-.504 2.51-1.15 3.723-.273.512-.563 1.02-.866 1.52l-.068.114-.064.108c-.261.428-.517.851-.758 1.267a17.48 17.48 0 0 0-.604 1.112c-.116.239-.218.475-.308.709-.024.061-.043.122-.065.183a5.6 5.6 0 0 0-.209.756 3.695 3.695 0 0 0-.078.697c0 .17-.162.295-.33.295a.317.317 0 0 1-.307-.316c0-.206-.024-.417-.062-.629-.013-.07-.034-.143-.05-.215a5.073 5.073 0 0 0-.21-.693 7.738 7.738 0 0 0-.15-.371c-.043-.098-.084-.197-.131-.295-.036-.076-.077-.152-.115-.229a16.775 16.775 0 0 0-.428-.785c-.154-.27-.311-.543-.479-.818-.273-.45-.549-.91-.826-1.373-.439-.736-.856-1.482-1.172-2.244l-.004-.01a9.396 9.396 0 0 1-.228-.613v-.004a7.396 7.396 0 0 1-.174-.596c-.02-.083-.032-.165-.049-.248-.026-.13-.053-.26-.07-.39A5.17 5.17 0 0 1 18 7.5c0-.278.034-.548.082-.813.01-.049.017-.1.027-.148a4.458 4.458 0 0 1 .85-1.785c.035-.045.071-.088.107-.131.187-.22.393-.424.618-.605.006-.006.012-.013.02-.018.77-.616 1.733-1 2.796-1zM10.082 6a4.07 4.07 0 0 1 2.748 1.064l-1.148 1.149a2.46 2.46 0 0 0-4.06 1.867c0 1.36 1.1 2.463 2.46 2.463 1.141 0 1.933-.676 2.223-1.621h-2.223v-1.56l3.848.005c.334 1.591-.424 4.793-3.848 4.793a4.08 4.08 0 1 1 0-8.16zM22.5 6A1.5 1.5 0 0 0 21 7.5 1.5 1.5 0 0 0 22.5 9 1.5 1.5 0 0 0 24 7.5 1.5 1.5 0 0 0 22.5 6zM15 16.414l-9.512 9.512c.165.043.334.074.512.074h18c.178 0 .347-.031.512-.074L15 16.414z"/></svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div
-                    class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-                    <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                        <div class="md:grid md:grid-cols-2 md:gap-8">
+                            <div>
+                                <h3 class="text-base font-medium text-white">導覽列</h3>
+                                <ul role="list" class="mt-4 space-y-4 text-slate-200">
+                                    <li>
+                                        <a href="#" class="text-base text-slate-200 hover:text-slate-300">首頁</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="text-base text-slate-200 hover:text-slate-300">作品總覽</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="text-base text-slate-200 hover:text-slate-300">關於</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="text-base text-slate-200 hover:text-slate-300">聯絡我們</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         <div>
-                            <h3 class="text-base font-medium text-white">導覽列
-                            </h3>
-                            <ul role="list"
-                                class="mt-4 space-y-4 text-slate-200">
+                            <h3 class="text-base font-medium text-white">聯絡我們</h3>
+                            <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="https://aiidee.com.tw"
-                                        class="text-base text-slate-200 hover:text-slate-300">首頁</a>
+                                    <a href="#" class="text-base text-slate-200 hover:text-slate-300" target="_blank" rel="noreferrer noopener">807高雄市三民區XXXX289號
+                                    </a>
                                 </li>
 
                                 <li>
-                                    <a href="https://aiidee.com.tw/projects"
-                                        class="text-base text-slate-200 hover:text-slate-300">作品總覽</a>
+                                    <a href="tel:+0909014185" class="text-base text-slate-200 hover:text-slate-300">T: 09xx-xxx-xxx</a>
                                 </li>
 
                                 <li>
-                                    <a href="https://aiidee.com.tw/about"
-                                        class="text-base text-slate-200 hover:text-slate-300">關於</a>
-                                </li>
-
-                                <li>
-                                    <a href="https://aiidee.com.tw/contact"
-                                        class="text-base text-slate-200 hover:text-slate-300">聯絡我們</a>
+                                    <a href="mailto:#" class="text-base text-slate-200 hover:text-slate-300">E:
+                                        elvancent@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <h3 class="text-base font-medium text-white">聯絡我們</h3>
-                        <ul role="list"
-                            class="mt-4 space-y-4">
-                            <li>
-                                <a href="https://lihi2.cc/zMcD4"
-                                    class="text-base text-slate-200 hover:text-slate-300"
-                                    target="_blank"
-                                    rel="noreferrer noopener">807高雄市三民區大豐一路289號
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="tel:+0909014185"
-                                    class="text-base text-slate-200 hover:text-slate-300">T:
-                                    0909-014-185</a>
-                            </li>
-
-                            <li>
-                                <a href="mailto:aiideeiddesign@gmail.com"
-                                    class="text-base text-slate-200 hover:text-slate-300">E:
-                                    aiideeiddesign@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="mt-12 border-t border-gray-200 pt-8">
+                    <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Elvancent Interior Design, Inc. All rights reserved. Designed by <a target="_blank" rel="me noopener noreferrer" class="copyright-link" href="https://www.bigboycancode.com/">鎰誠數位</a>
+                    </p>
                 </div>
             </div>
-            <div class="mt-12 border-t border-gray-200 pt-8">
-                <p class="text-base text-gray-400 xl:text-center">
-                    &copy; 2020 Aiidee Interior Design, Inc. All rights
-                    reserved.
-                    Designed by
-                    <a target="_blank"
-                        rel="me noopener noreferrer"
-                        class="copyright-link"
-                        href="https://www.bigboycancode.com/">鎰誠數位</a>
-                </p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
     <script>
         var menuButton = document.querySelector("#menuButton");
@@ -619,14 +269,7 @@
                     element.classList.toggle("text-gray-500", window.scrollY > 0);
                 });
             }
-            if (window.scrollY > 0) {
-                logoWhite.src =
-                    "https://aiidee.com.tw/wp-content/themes/aiidee/img/aiidee-logo.png";
-            }
-            if (window.scrollY === 0) {
-                logoWhite.src =
-                    "https://aiidee.com.tw/wp-content/themes/aiidee/img/aiidee-logo-white.png";
-            }
+
 
             // logoWhite.forEach(function(element) {
             //     element.classList.toggle("hidden", window.scrollY > 0 )
@@ -634,23 +277,7 @@
         });
     </script>
 
-    <script
-        src="https://aiidee.com.tw/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.4"
-        id="swv-js"></script>
-    <script id="contact-form-7-js-extra">
-        var wpcf7 = {
-            api: {
-                root: "https:\/\/aiidee.com.tw\/wp-json\/",
-                namespace: "contact-form-7\/v1",
-            },
-        };
-    </script>
-    <script
-        src="https://aiidee.com.tw/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.4"
-        id="contact-form-7-js"></script>
-    <script
-        src="https://aiidee.com.tw/wp-content/themes/aiidee/js/navigation.js?ver=1.0.0"
-        id="aiidee-navigation-js"></script>
+
     <script
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </body>

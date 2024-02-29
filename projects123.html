@@ -40,6 +40,12 @@
         .dropdown:hover .dropdown-content {
           display: block;
         }
+
+        .active {
+            color: rgb(255, 255, 255) !important;
+            background-color: #2980b9;
+            border-radius: 8px;
+        }
           </style>
 </head>
 
@@ -136,114 +142,92 @@
         </div>
     </nav>
 
-        <header>
-            <img src="./projects/1-微空然居/2.jpg" alt="" class="w-full h-96 object-cover">
-        </header>
-
+    <header>
+        <img src="./projects/1-微空然居/2.jpg" alt="" class="w-full h-96 object-cover">
+    </header>
 
 
     <section class="container mx-auto max-w-6xl py-16">
-        <div class="border-b border-gray-200 dark:border-gray-700">
-            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+        <div class="">
+            <ul class="flex flex-wrap justify-center text-sm font-medium text-center text-gray-500 dark:text-gray-400">
                 <li class="me-2">
-                    <a href="#" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
-                        <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
-                        </svg>Profile
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group active " data-tab="profile">
+                        住家
                     </a>
                 </li>
                 <li class="me-2">
-                    <a href="#" class="inline-flex items-center justify-center p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group" aria-current="page">
-                        <svg class="w-4 h-4 me-2 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
-                            <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z"/>
-                        </svg>Dashboard
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group" data-tab="dashboard">
+                        商業
                     </a>
                 </li>
-                <li class="me-2">
-                    <a href="#" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
-                        <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M5 11.424V1a1 1 0 1 0-2 0v10.424a3.228 3.228 0 0 0 0 6.152V19a1 1 0 1 0 2 0v-1.424a3.228 3.228 0 0 0 0-6.152ZM19.25 14.5A3.243 3.243 0 0 0 17 11.424V1a1 1 0 0 0-2 0v10.424a3.227 3.227 0 0 0 0 6.152V19a1 1 0 1 0 2 0v-1.424a3.243 3.243 0 0 0 2.25-3.076Zm-6-9A3.243 3.243 0 0 0 11 2.424V1a1 1 0 0 0-2 0v1.424a3.228 3.228 0 0 0 0 6.152V19a1 1 0 1 0 2 0V8.576A3.243 3.243 0 0 0 13.25 5.5Z"/>
-                        </svg>Settings
-                    </a>
-                </li>
-                <li class="me-2">
-                    <a href="#" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
-                        <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
-                            <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
-                        </svg>Contacts
-                    </a>
-                </li>
-                <li>
-                    <a class="inline-block p-4 text-gray-400 rounded-t-lg cursor-not-allowed dark:text-gray-500">Disabled</a>
-                </li>
+
             </ul>
         </div>
 
+
+<div id="tab-content">
+    <div id="profile" class="tab-content ">
         <div class="flex flex-wrap mt-4">
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%b0%8f%e6%b8%af%e5%ae%89%e7%be%8e%e8%a1%97-%e7%8f%be%e4%bb%a3%e9%a2%a8-aiidee-design-%e8%89%be%e8%bf%aa%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88/" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
-                 <img width="1920" height="1200" src="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="小港logo 1" decoding="async" fetchpriority="high" srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1.jpg 1920w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-300x188.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-1024x640.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-768x480.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2022/11/小港logo-1-1536x960.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px">                </div>
-                <p class="mt-2">高雄室內設計 小港安美街</p>
-                <p>風格 | 現代風</p>
-                <p>坪數 | 20坪/層</p>
+                    <img src="./projects/1-微空然居/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">
+                </div>
+                <p class="mt-2">住家</p>
+                <p>風格 | 住家</p>
+                <p>坪數 | 住家/層</p>
             </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e9%b3%b3%e5%b1%b1%e4%b8%ad%e5%b1%b1%e6%a5%b5%e4%b8%8a-%e7%8f%be%e4%bb%a3%e7%be%8e%e5%bc%8f%e9%a2%a8-aiidee-design-%e8%89%be%e8%bf%aa%e5%ae%a4/" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
-                 <img width="2560" height="1719" src="https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-scaled.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="01.高雄室內設計 - 中山極上-01-燈光設計" decoding="async" srcset="https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-scaled.jpg 2560w, https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-300x201.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-1024x688.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-768x516.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-1536x1031.jpg 1536w, https://aiidee.com.tw/wp-content/uploads/2023/12/01.高雄室內設計-中山極上-01-2048x1375.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">                </div>
-                <p class="mt-2">高雄室內設計 中山極上</p>
-                <p>風格 | 現代美式風</p>
-                <p>坪數 | 45坪</p>
+                    <img src="./projects/1-微空然居/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">
+                </div>
+                <p class="mt-2">住家</p>
+                <p>風格 | 住家</p>
+                <p>坪數 | 住家/層</p>
             </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e9%ab%98%e9%9b%84%e9%bc%93%e5%b1%b1-%e7%be%8e%e8%a1%93%e5%90%9b%e5%be%a1-%e7%8f%be%e4%bb%a3%e8%bc%95%e5%a5%a2aiidee-design-%e8%89%be%e8%bf%aa/" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
-                 <img width="1201" height="801" src="https://aiidee.com.tw/wp-content/uploads/2022/11/官F-美術君御-001.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="" decoding="async" srcset="https://aiidee.com.tw/wp-content/uploads/2022/11/官F-美術君御-001.jpg 1201w, https://aiidee.com.tw/wp-content/uploads/2022/11/官F-美術君御-001-300x200.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2022/11/官F-美術君御-001-1024x683.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2022/11/官F-美術君御-001-768x512.jpg 768w" sizes="(max-width: 1201px) 100vw, 1201px">                </div>
-                <p class="mt-2">高雄室內設計 美術君御</p>
-                <p>風格 | 現代輕奢</p>
-                <p>坪數 | 30坪</p>
-            </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e8%b7%af%e7%ab%b9%e9%80%8f%e5%a4%a9-aiidee-design-%e8%89%be%e8%bf%aa%e5%ae%a4%e5%85%a7%e8%a3%9d%e4%bf%ae%e8%a8%ad%e8%a8%88%e6%9c%89%e9%99%90/" class="w-full sm:w-6/12 px-4 mt-8">
-                <div class="overflow-hidden " style="height: 350px;">
-                 <img width="1200" height="795" src="https://aiidee.com.tw/wp-content/uploads/2023/07/12.高雄室內設計-路竹透天-完工照-01-1.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://aiidee.com.tw/wp-content/uploads/2023/07/12.高雄室內設計-路竹透天-完工照-01-1.jpg 1200w, https://aiidee.com.tw/wp-content/uploads/2023/07/12.高雄室內設計-路竹透天-完工照-01-1-300x199.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/07/12.高雄室內設計-路竹透天-完工照-01-1-1024x678.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/07/12.高雄室內設計-路竹透天-完工照-01-1-768x509.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px">                </div>
-                <p class="mt-2">高雄室內設計-路竹透天</p>
-                <p>風格 | 現代美式北歐風</p>
-                <p>坪數 | 23.5坪</p>
-            </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%be%a1%e4%b9%8b%e8%8b%91-%e8%89%be%e8%bf%aa%e5%ae%a4%e5%85%a7%e8%a3%9d%e4%bf%ae%e8%a8%ad%e8%a8%88%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8-aiidee-d/" class="w-full sm:w-6/12 px-4 mt-8">
-                <div class="overflow-hidden " style="height: 350px;">
-                 <img width="2560" height="1696" src="https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-scaled.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="13.高雄室內設計 御之苑-01-沙發區" decoding="async" loading="lazy" srcset="https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-scaled.jpg 2560w, https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-300x199.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-1024x678.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-768x509.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-1536x1017.jpg 1536w, https://aiidee.com.tw/wp-content/uploads/2023/12/13.高雄室內設計-御之苑-01-2048x1357.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">                </div>
-                <p class="mt-2">高雄室內設計 御之苑</p>
-                <p>風格 | 現代風</p>
-                <p>坪數 | 40坪</p>
-            </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%b1%8f%e6%9d%b1%e5%85%a7%e5%9f%94%e9%be%8d%e6%b3%89%e9%80%8f%e5%a4%a9%e5%ae%85-%e8%89%be%e8%bf%aa%e5%ae%a4%e5%85%a7%e8%a3%9d%e4%bf%ae%e8%a8%ad/" class="w-full sm:w-6/12 px-4 mt-8">
-                <div class="overflow-hidden " style="height: 350px;">
-                 <img width="2560" height="1696" src="https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-scaled.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="14.高雄室內設計 龍泉透天宅-01-客廳" decoding="async" loading="lazy" srcset="https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-scaled.jpg 2560w, https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-300x199.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-1024x678.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-768x509.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-1536x1017.jpg 1536w, https://aiidee.com.tw/wp-content/uploads/2023/12/14.高雄室內設計-龍泉透天宅-01-2048x1357.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">                </div>
-                <p class="mt-2">高雄室內設計 屏東內埔龍泉透天宅</p>
-                <p>風格 | 輕奢風</p>
-                <p>坪數 | 25坪</p>
-            </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e6%ad%a6%e5%bb%9f%e5%9c%92%e8%8a%af/" class="w-full sm:w-6/12 px-4 mt-8">
-                <div class="overflow-hidden " style="height: 350px;">
-                 <img width="2560" height="1695" src="https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-scaled.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="15.高雄室內設計 武廟園芯-01-玄關" decoding="async" loading="lazy" srcset="https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-scaled.jpg 2560w, https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-300x199.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-1024x678.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-768x509.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-1536x1017.jpg 1536w, https://aiidee.com.tw/wp-content/uploads/2023/12/15.高雄室內設計-武廟園芯翁小姐-北歐現代明亮風-JA-完工照-01-2048x1356.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">                </div>
-                <p class="mt-2">高雄室內設計 武廟園芯</p>
-                <p>風格 | 北歐現代明亮風</p>
-                <p>坪數 | 20坪</p>
-            </a>
-
-             <a href="https://aiidee.com.tw/%e9%ab%98%e9%9b%84%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e4%ba%ac%e5%9f%8e%e6%96%87%e5%ad%b8%e9%99%a2/" class="w-full sm:w-6/12 px-4 mt-8">
-                <div class="overflow-hidden " style="height: 350px;">
-                 <img width="2560" height="1696" src="https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-scaled.jpg" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image" alt="17.高雄室內設計 京城文學院-01-玄關+電視牆" decoding="async" loading="lazy" srcset="https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-scaled.jpg 2560w, https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-300x199.jpg 300w, https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-1024x678.jpg 1024w, https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-768x509.jpg 768w, https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-1536x1018.jpg 1536w, https://aiidee.com.tw/wp-content/uploads/2024/01/20240110京城文學院-上LOGO-01-2048x1357.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">                </div>
-                <p class="mt-2">高雄室內設計 京城文學院</p>
-                <p>風格 | 現代美式輕奢風</p>
-                <p>坪數 | 25坪</p>
+                    <img src="./projects/1-微空然居/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">
+                </div>
+                <p class="mt-2">住家</p>
+                <p>風格 | 住家</p>
+                <p>坪數 | 住家/層</p>
             </a>
         </div>
+    </div>
+    <div id="dashboard" class="tab-content hidden">
+        <div class="flex flex-wrap mt-4">
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+        </div>
+    </div>
+</div>
+
     </section>
 
         <!-- Footer -->
@@ -326,6 +310,37 @@
 
 
     </script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tabLinks = document.querySelectorAll('.tab-link');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                const tabId = this.getAttribute('data-tab');
+
+                tabContents.forEach(function(content) {
+                    if (content.id === tabId) {
+                        content.classList.remove('hidden');
+                    } else {
+                        content.classList.add('hidden');
+                    }
+                });
+                 // Remove the classes from all tab links
+            tabLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            // Add the classes to the clicked tab link
+            this.classList.add('active');
+            });
+
+
+        });
+    });
+</script>
 
 </body>
 
