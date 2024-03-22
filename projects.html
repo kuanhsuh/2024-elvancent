@@ -43,7 +43,7 @@
 
         .active {
             color: rgb(255, 255, 255) !important;
-            background-color: #2980b9;
+            background-color: #8395a7;
             border-radius: 8px;
         }
           </style>
@@ -151,12 +151,22 @@
         <div class="">
             <ul class="flex flex-wrap justify-center text-sm font-medium text-center text-gray-500 dark:text-gray-400">
                 <li class="me-2">
-                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group active " data-tab="profile">
-                        住家
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group active " data-tab="one">
+                        豪宅
                     </a>
                 </li>
                 <li class="me-2">
-                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group" data-tab="dashboard">
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group" data-tab="two">
+                        小宅
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group" data-tab="three">
+                        自地自建
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a href="" onclick="return false;" class="tab-link inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600  text-gray-600  dark:hover:text-gray-300 group" data-tab="four">
                         商業
                     </a>
                 </li>
@@ -166,7 +176,7 @@
 
 
 <div id="tab-content">
-    <div id="profile" class="tab-content ">
+    <div id="one" class="tab-content ">
         <div class="flex flex-wrap mt-4">
             <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
@@ -194,7 +204,7 @@
             </a>
         </div>
     </div>
-    <div id="dashboard" class="tab-content hidden">
+    <div id="two" class="tab-content hidden">
         <div class="flex flex-wrap mt-4">
             <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
@@ -217,6 +227,28 @@
                 <p>風格 | 商業</p>
                 <p>坪數 | 商業/層</p>
             </a>
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+        </div>
+    </div>
+    <div id="three" class="tab-content hidden">
+        <div class="flex flex-wrap mt-4">
+            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+                <div class="overflow-hidden " style="height: 350px;">
+                    <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
+                <p class="mt-2">商業</p>
+                <p>風格 | 商業</p>
+                <p>坪數 | 商業/層</p>
+            </a>
+        </div>
+    </div>
+    <div id="four" class="tab-content hidden">
+        <div class="flex flex-wrap mt-4">
             <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden " style="height: 350px;">
                     <img src="./projects/2-東風起/8.png" alt="" class="w-full overflow-hidden h-full object-cover rounded-md zoom wp-post-image">            </div>
@@ -230,9 +262,10 @@
 
     </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
+     <!-- Footer -->
         <!-- This example requires Tailwind CSS v2.0+ -->
-        <footer class="bg-slate-700 text-white" aria-labelledby="footer-heading">
+        <footer class="bg-slate-400 text-white" aria-labelledby="footer-heading">
             <h2 id="footer-heading" class="sr-only">Footer</h2>
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -294,11 +327,12 @@
                     </div>
                 </div>
                 <div class="mt-12 border-t border-gray-200 pt-8">
-                    <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Elvancent Interior Design, Inc. All rights reserved. Designed by <a target="_blank" rel="me noopener noreferrer" class="copyright-link" href="https://www.bigboycancode.com/">鎰誠數位</a>
+                    <p class="text-base xl:text-center">&copy; 2020 Elvancent Interior Design, Inc. All rights reserved. Designed by <a target="_blank" rel="me noopener noreferrer" class="copyright-link" href="https://www.bigboycancode.com/">鎰誠數位</a>
                     </p>
                 </div>
             </div>
         </footer>
+
 
     <script>
         var menuButton = document.querySelector("#menuButton");
