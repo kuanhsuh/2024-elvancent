@@ -55,25 +55,23 @@
         <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div class="flex h-12 justify-between">
                 <div class="flex px-2 lg:px-0 justify-between w-full">
-                    <a href="#" class="flex flex-shrink-0 items-center">
+                    <a href="/index.html" class="flex flex-shrink-0 items-center">
                         <img class="logo-white block w-24" src="./logo.png" alt="Company name">
                     </a>
                     <div id="list" class=" hidden lg:ml-6 lg:flex lg:space-x-8">
                         <!-- Current: "border-indigo-500 ", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
                         <a href="/index.html"
                             class="items-center0 border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300 hover:text-gray-70 border-slate-700 ">首頁</a>
-
-                        <div class="dropdown">
-                            <button class="dropbtn items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300 ">關於</button>
-                            <div class="dropdown-content">
-                            <a href="./about.html">團隊介紹</a>
-                            <a href="./awards.html">獲獎紀錄</a>
-                            </div>
-                        </div>
+                        <a href="/awards.html"
+                            class="items-center0 border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300 hover:text-gray-70 border-slate-700 ">Award</a>
+                        <a href="/about.html"
+                            class="items-center0 border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300 hover:text-gray-70 border-slate-700 ">About</a>
                         <a href="projects.html"
-                            class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">作品總覽</a>
+                            class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">傑出案例</a>
+                        <a href="projects.html"
+                            class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">設計學堂</a>
                         <a href="contact.html"
-                            class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">聯絡我們</a>
+                            class="items-center border-b-2 border-transparent px-1 pt-1 font-medium  hover:border-gray-300  ">設計諮詢</a>
                     </div>
                 </div>
 
@@ -90,7 +88,7 @@
 
             Menu open: "hidden", Menu closed: "block"
           -->
-                        <svg class="svg-icon fill-current text-slate-800 block h-6 w-6"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        <svg class="svg-icon fill-current text-slate-800 text-white  block h-6 w-6"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -112,23 +110,24 @@
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="hidden lg:hidden border-b border-gray-200 bg-white text-slate-800" id="mobile-menu">
+        <div class="hidden lg:hidden border-b border-gray-200 bg-white text-gray-600" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-3">
                 <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" -->
-                <a href="#"
+                <a href="/index.html"
                     class="block border-l-4 border-slate-700 bg-slate-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">首頁</a>
-                <a href="#"
-                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">關於</a>
+                <a href="/awards.html"
+                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">Award</a>
+                <a href="/about.html"
+                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">About Us</a>
                 <a href="#"
                     class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">團隊介紹</a>
-                <a href="#"
-                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">服務流程</a>
-                <a href="#"
-                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">預約諮詢</a>
-                <a href="#"
-                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">作品總覽</a>
-                <a href="#"
-                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">聯絡我們</a>
+                <a href="/projects.html"
+                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">傑出案例</a>
+                <a href="/blog.html"
+                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">設計學堂</a>
+                <a href="/contact.html"
+                    class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">設計諮詢</a>
+
             </div>
         </div>
     </nav>
@@ -169,17 +168,17 @@
 <div id="tab-content">
     <div id="one" class="tab-content ">
         <div class="flex flex-wrap mt-4">
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-2-海洋心境.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/2-海洋心境(大宅)/2.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">海洋心境</p>
             </a>
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-8-大器微生活.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/8-大器微生活(大宅)/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md ">   </div>
                 <p class="mt-2 text-center">大器微生活</p>
             </a>
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-9-曜輕奢.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/9-曜輕奢(大宅)/龍騰(挑片用)-90-2.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md ">   </div>
                 <p class="mt-2 text-center">曜輕奢</p>
@@ -188,12 +187,12 @@
     </div>
     <div id="two" class="tab-content hidden">
         <div class="flex flex-wrap mt-4">
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-3-冰晶雪舞.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/3-冰晶雪舞(商空)/葡園六合(大檔案)-18.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">冰晶雪舞</p>
             </a>
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-1-東風起.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/1-東風起(民宿旅店)/葡園會館(大檔案)-16.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">東風起</p>
@@ -202,13 +201,13 @@
     </div>
     <div id="three" class="tab-content hidden">
         <div class="flex flex-wrap mt-4">
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-10-御風居.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/10-御風居(自地自建)/台東鹿野(大檔案)-14.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">御風居</p>
             </a>
 
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-4-微空然居.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/4-微空然居(自地自建)/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">微空然居</p>
@@ -217,12 +216,12 @@
     </div>
     <div id="four" class="tab-content hidden">
         <div class="flex flex-wrap mt-4">
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-5-浴火重生.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/5-浴火重生(老屋重建)/1.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">浴火重生</p>
             </a>
-            <a href="#" class="w-full sm:w-6/12 px-4 mt-8">
+            <a href="./single-7-呼吸重生.html" class="w-full sm:w-6/12 px-4 mt-8">
                 <div class="overflow-hidden shadow-md" style="height: 350px;">
                     <img src="./projects/7-呼吸重生(老屋重生)/君牧塑膠科技(大檔案)-11.jpg" alt="" class="w-full overflow-hidden h-full object-cover rounded-md drop-shadow">   </div>
                 <p class="mt-2 text-center">呼吸重生</p>
