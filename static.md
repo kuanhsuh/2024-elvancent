@@ -25,30 +25,49 @@ https://2024-elvancent.netlify.app/blog-single.html
 聯絡我們
 ------------
 
+曜 輕 奢
+https://www.youtube.com/watch?v=0EXqtU3Rp9U
+https://www.youtube.com/embed/0EXqtU3Rp9U?si=W3o8OSb85tlpagFv
 
-1東風起 (名宿旅館)
-https://www.youtube.com/watch?v=stRJ01HECJg
 
-2海洋心境 (大宅)
-https://www.youtube.com/watch?v=R7A460lhnbQ
+大器微生活
+https://www.youtube.com/watch?v=E8i2o-NCAk8
+https://www.youtube.com/embed/E8i2o-NCAk8?si=QjkCCsUIMC8hu207
 
-3冰晶雪舞 (商空)
-https://www.youtube.com/watch?v=cg4o4WchaWg
+呼 .吸 .重生
+https://www.youtube.com/watch?v=hZVp1Au9cEs
+https://www.youtube.com/embed/hZVp1Au9cEs?si=ksMGVIUnvY8QTkGW
 
-4微空然居 (自地自建)
-https://www.youtube.com/watch?v=FczGd8vig6E
+森影身影
+https://www.youtube.com/watch?v=cEp74tOyaEI
+https://www.youtube.com/embed/cEp74tOyaEI?si=bctMMLSpfc6-t4wL
 
-5浴火重生 (自地自建)
-https://www.youtube.com/watch?v=w6x42OGyylk
+浴火重生
+https://www.youtube.com/watch?v=gfD4b3um5y8
+https://www.youtube.com/embed/gfD4b3um5y8?si=ByAIfioSr5gllGn6
 
-7呼.吸.重生2 (老屋重生)
-https://www.youtube.com/watch?v=vzLV6kDx8Q4
+微空然居
+https://www.youtube.com/watch?v=N9-jaliTkWw
+https://www.youtube.com/embed/N9-jaliTkWw?si=A4wNQ4e4tzFEWnUm
 
-8大器微生活 (大宅)
-https://www.youtube.com/watch?v=xF_jSkI8TgM
+冰晶雪舞
+https://www.youtube.com/watch?v=vWKhGgnwkXs
+https://www.youtube.com/embed/vWKhGgnwkXs?si=BmS6eWGGXK09m12Y
 
-9曜輕奢(大宅)
-https://www.youtube.com/watch?v=9ferouo1DYU
+海洋心境
+https://www.youtube.com/watch?v=CQpGZUod_jo
+https://www.youtube.com/embed/CQpGZUod_jo?si=poauDY7VuJ8WtwiN
 
-10御風居(自地自建)
+
+東風起 英文概念
+https://www.youtube.com/watch?v=UTZUOEE442M
+https://www.youtube.com/embed/UTZUOEE442M?si=25DpgXTC8F7k9pD7
+
+東風起-中文概念
+https://www.youtube.com/watch?v=A86fhexPY88
+https://www.youtube.com/embed/A86fhexPY88?si=FJLLZW4H-8rLnkCH
+
+
+御風居
 https://www.youtube.com/watch?v=QLsq2AA2tus
+https://www.youtube.com/embed/QLsq2AA2tus?si=SV604HgjY_qVAJCW
