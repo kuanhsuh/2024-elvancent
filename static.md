@@ -65,7 +65,13 @@ https://www.youtube.com/embed/UTZUOEE442M?si=25DpgXTC8F7k9pD7
 
 東風起-中文概念
 https://www.youtube.com/watch?v=A86fhexPY88
-https://www.youtube.com/embed/A86fhexPY88?si=FJLLZW4H-8rLnkCH
+https://www.youtube.com/embed/A86fhexPY88?si=vuCQMDmx4nN371Qe
+
+https://www.youtube.com/watch?v=UTZUOEE442M&t=1s
+https://www.youtube.com/embed/UTZUOEE442M?si=fSnq0jU6cZVG-_nX
+
+https://www.youtube.com/watch?v=stRJ01HECJg&t=1s
+https://www.youtube.com/embed/stRJ01HECJg?si=ZJR8H_BTdu0LqLDZ
 
 
 御風居
