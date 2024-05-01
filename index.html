@@ -8,10 +8,24 @@
 
     .background-img {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./bg/首頁.jpg') no-repeat center/cover;
-        height: 900px;
+        height: 750px;
 
     }
 
+    article {
+        height: 500px;
+    }
+    @media only screen and (max-width: 600px) {
+        .background-img {
+            height: 450px;
+        }
+
+        .stats {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+}
     .video-banner {
     display: block;
 }
@@ -169,7 +183,7 @@ transition: all 1s ease;
                     <a href="/about.html"
                         class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">ABOUT</a>
                         <a href="/certificate.html"
-                        class="block border-l-4 border-slate-700 bg-slate-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">證書</a>
+                        class="block border-l-4 border-slate-700 bg-slate-50 py-2 pl-3 pr-4 text-base font-medium">證照</a>
                     <a href="/projects.html"
                         class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium  hover:border-gray-70 hover:bg-gray-50">傑出案例</a>
                     <a href="/blog.html"
@@ -207,7 +221,7 @@ transition: all 1s ease;
               </div>
             </div>
             <div class="lg:flex lg:flex-auto lg:justify-center">
-              <dl class="w-64 space-y-8 xl:w-80">
+              <dl class="stats lg:w-64 space-y-8 xl:w-80">
                 <div class="flex flex-col-reverse gap-y-4">
                   <dt class="text-base leading-7 text-gray-600">國際獎項</dt>
                   <dd class="text-5xl font-semibold tracking-tight text-gray-900">11</dd>
@@ -280,7 +294,7 @@ transition: all 1s ease;
             <h3 class="mt-3 text-lg font-semibold leading-6 text-white">
               <a href="./blog.html">
                 <span class="absolute inset-0"></span>
-                證書 | CERTIFICATE
+                證照 | CERTIFICATE
               </a>
             </h3>
           </article>
